@@ -32,7 +32,7 @@ app.post('/api/create/:phonenumber', (req, res) => {
             const accessCode = Math.floor(100000 + Math.random() * 900000);
             
             //send sms
-            await client.messages.create({
+            client.messages.create({
                 to: req.params.phonenumber,
                 from: '+14012101818',
                 body: `Your access code is ${accessCode}`
