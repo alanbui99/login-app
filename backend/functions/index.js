@@ -5,7 +5,7 @@ const cors = require('cors');
 
 // set up twilio
 const accountSid = 'ACf70e8c65a6cf30b3fd08a7ec8a08932c';
-const authToken = '5b83d7488c671585a36a4b91e2fe09e4';
+const authToken = '12e9f05da28f344a1cac28ebf5390a31';
 const client = require('twilio')(accountSid, authToken);
 
 // set up firebase
