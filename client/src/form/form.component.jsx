@@ -40,6 +40,7 @@ export default class LoginForm extends Component {
         try {
             //send phone number to API
             await axios.post(`http://localhost:5001/login-app-b2651/us-central/app/api/create/${number}`)
+            .then(res => console.log(res.data))
 
         } catch (err) {
             console.log(err)
