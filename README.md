@@ -1,6 +1,6 @@
 # login-app
 ## Important Note:
-Twilio asks me to pay for programmable SMS in order for texting to actually work. Therefore, I log the access code from the backend to the console instead, which will hopefully resemble the process of user receving it from SMS
+Twilio asks me to pay for programmable SMS in order for texting to actually work. Therefore, in the code, I do set up Twilio but log the access code from the backend to the console instead, which will hopefully resemble the process of user receving it from SMS
 # Run the project locally
 ## Backend
 On one terminal:
